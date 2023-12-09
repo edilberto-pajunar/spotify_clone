@@ -1,0 +1,67 @@
+name: spotify_clone
+description: "A new Flutter project."
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  flutter_bloc: ^8.1.3
+  bloc: ^8.1.2
+  http: ^1.1.2
+  flutter_native_splash: ^2.3.6
+  go_router: ^12.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Graphik
+      fonts:
+        - asset: assets/fonts/graphik/GraphikBlack.otf
+        - asset: assets/fonts/graphik/GraphikBlackItalic.otf
+        - asset: assets/fonts/graphik/GraphikBold.otf
+        - asset: assets/fonts/graphik/GraphikBoldItalic.otf
+        - asset: assets/fonts/graphik/GraphikExtralight.otf
+        - asset: assets/fonts/graphik/GraphikExtralightItalic.otf
+        - asset: assets/fonts/graphik/GraphikLight.otf
+        - asset: assets/fonts/graphik/GraphikLightItalic.otf
+        - asset: assets/fonts/graphik/GraphikMedium.otf
+        - asset: assets/fonts/graphik/GraphikMediumItalic.otf
+        - asset: assets/fonts/graphik/GraphikRegular.otf
+        - asset: assets/fonts/graphik/GraphikRegularItalic.otf
+        - asset: assets/fonts/graphik/GraphikSemibold.otf
+        - asset: assets/fonts/graphik/GraphikSemiboldItalic.otf
+        - asset: assets/fonts/graphik/GraphikSuper.otf
+        - asset: assets/fonts/graphik/GraphikSuperItalic.otf
+        - asset: assets/fonts/graphik/GraphikThin.otf
+        - asset: assets/fonts/graphik/GraphikThinItalic.otf
+
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
